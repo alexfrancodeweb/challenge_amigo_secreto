@@ -1,25 +1,27 @@
- Amigo Secreto
+# Amigo Secreto
 
 Este es un proyecto web para gestionar una lista de amigos participantes en un sorteo de Amigo Secreto. Permite agregar nombres a una lista, visualizarlos dinámicamente en la página y sortear aleatoriamente un amigo secreto.
 
-Características
+## Características
 - Agregar nombres a la lista de participantes.
 - Mostrar los nombres agregados en una lista HTML.
+- Restablecer el campo de texto después de agregar un nombre.
 - Sortear un amigo secreto de manera aleatoria.
 - Diseño responsivo y amigable.
 
-Tecnologías Utilizadas
+## Tecnologías Utilizadas
 - **HTML**: Estructura de la página web.
 - **CSS**: Estilos y diseño visual.
 - **JavaScript**: Lógica de funcionamiento para agregar nombres y realizar el sorteo.
 
- Instalación y Uso
+## Instalación y Uso
 1. Clona este repositorio o descarga los archivos.
 2. Abre el archivo `index.html` en tu navegador.
 3. Escribe un nombre en el campo de entrada y presiona el botón "Agregar Amigo" para añadirlo a la lista.
-4. Cuando todos los amigos estén agregados, presiona el botón "Sortear Amigo" para realizar el sorteo.
+4. El campo de texto se restablecerá automáticamente después de agregar un nombre.
+5. Cuando todos los amigos estén agregados, presiona el botón "Sortear Amigo" para realizar el sorteo.
 
-Estructura del Proyecto
+## Estructura del Proyecto
 ```
 /amigo-secreto
 │── index.html    # Página principal
@@ -28,13 +30,14 @@ Estructura del Proyecto
 │── assets/       # Imágenes y otros recursos
 ```
 
-Funciones Principales en `app.js`
-- `agregarAmigo()`: Agrega un nombre al arreglo y actualiza la lista en la interfaz.
+## Funciones Principales en `app.js`
+- `agregarAmigo()`: Agrega un nombre al arreglo, actualiza la lista en la interfaz y restablece el campo de texto.
 - `actualizarLista()`: Muestra los nombres en la lista de manera dinámica.
 - `sortearAmigo()`: Realiza el sorteo aleatorio y muestra el resultado.
- Contribución
+
+## Contribución
 Si deseas mejorar este proyecto, puedes hacer un fork del repositorio y enviar un pull request con tus cambios.
 
- Autor
-Desarrollado por Alex Franco
+## Autor
+Desarrollado por Alex Franco.
 
